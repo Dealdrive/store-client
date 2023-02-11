@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
-  ${mobile({ height: "50px" })}
+  ${mobile({ height: "80px" })}
 `;
 
 const Wrapper = styled.div`
@@ -51,7 +51,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+  ${mobile({ fontSize: "24px", paddingLeft: "10px" })}
 `;
 const Right = styled.div`
   flex: 1;
