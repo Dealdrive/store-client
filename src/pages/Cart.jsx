@@ -237,19 +237,19 @@ const Cart = () => {
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>${cart.total}</SummaryItemPrice>
+              <SummaryItemPrice>N{cart.total}</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$25</SummaryItemPrice>
+              <SummaryItemPrice>N25</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice> $-25</SummaryItemPrice>
+              <SummaryItemPrice> N-25</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem type="total">
               <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>${cart.total}</SummaryItemPrice>
+              <SummaryItemPrice>N{cart.total}</SummaryItemPrice>
             </SummaryItem>
             <StripeCheckout
         name = "Dealdrive Store"
@@ -257,7 +257,7 @@ const Cart = () => {
         billingAddress
         shippingAddress
         //onSuccess={() => navigate("/success")}
-        description = {`Your total is $${cart.total}`}
+        description = {`Your total is N${cart.total}`}
         amount = {cart.total*100}
         token = {onToken}
         stripeKey = {KEY}>
