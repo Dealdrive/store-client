@@ -1,21 +1,21 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://o.remove.bg/downloads/a9dd7b44-2c96-437e-a5cc-9aeccdabc032/holding_product-removebg-preview.png",
+      img: "https://www.seekpng.com/png/detail/309-3096504_wp-img-product-gallery1-2-samsung-edge-no.png",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
     },
     {
       id: 2,
-      img: "https://i.ibb.co/DG69bQ4/2.png",
+      img: "https://storage.needpix.com/rsynced_images/t-shirt-2068353_1280.png",
       title: "AUTUMN COLLECTION",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fcf1ed",
     },
     {
       id: 3,
-      img: "https://i.ibb.co/cXFnLLV/3.png",
+      img: "https://images.ctfassets.net/uexfe9h31g3m/5N6xHGv5CM0aU2cyES8eow/85fe64da345d844e15c1f0a7f7c14e40/Quorn_pieces_1024x768.png?w=768&h=512&fm=jpg&fit=thumb&q=90&fl=progressive",
       title: "LOUNGEWEAR LOVE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "fbf0f4",

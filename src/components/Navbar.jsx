@@ -50,9 +50,12 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
+  color: blue;
+  text-decoration: none;
   font-weight: bold;
   ${mobile({ fontSize: "24px", paddingLeft: "10px" })}
 `;
+
 const Right = styled.div`
   flex: 1;
   display: flex;
@@ -81,7 +84,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>DEALDRIVE STORE.</Logo>
+          <Logo><Link to="/">DEALDRIVE STORE.</Link></Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
